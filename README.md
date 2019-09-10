@@ -1,5 +1,4 @@
-# Boiler created like a proposal for 
-# a sodimac project on React ⚛️
+# Boiler created like a proposal for a sodimac project on React ⚛️
 
 In the project directory, you can run:
 ### `yarn start`
