@@ -15,12 +15,12 @@ export const MainButton = styled.button`
   cursor: pointer;
   position: relative;
   &[disabled] {
-    opacity: .6;
+    opacity: .4;
     background: #ccc;
     border: 1px solid #666;
   };
   padding: ${(props) => (
-    ((props.size === 'medium') && '1.1em 1.3em;')
+    ((props.size === 'medium') && '0.9em 1.3em;')
     || ((props.size === 'small') && '0.5em 1em;')
     || ((props.size === 'large') && '1.7em 2.4em;')
     || ((props.size === 'default') && '0.8em 1.7em;')

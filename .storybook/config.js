@@ -9,6 +9,8 @@ function loadStories() {
 
   //atoms
   require('../src/components/atoms/button/button.stories');
+  //molecules
+  require('../src/components/molecules/navbar/navbar.stories');
 }
 
 configure(loadStories, module);

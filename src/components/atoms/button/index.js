@@ -25,6 +25,8 @@ export const Button = ({
 );
 
 Button.defaultProps = {
+  size: 'medium',
+  theme: '',
   type: 'button',
   onClick: () => {},
   className: '',
