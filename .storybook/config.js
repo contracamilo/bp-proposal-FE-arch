@@ -6,6 +6,9 @@ function loadStories() {
   require('../src/components/molecules/-divider/molecules.stories');
   require('../src/components/organisms/-divider/organisms.stories');
   require('../src/components/templates/-divider/templates.stories');
+
+  //atoms
+  require('../src/components/atoms/button/button.stories');
 }
 
 configure(loadStories, module);

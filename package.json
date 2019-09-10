@@ -2,13 +2,19 @@
   "name": "sodimac-microblend",
   "version": "0.1.0",
   "private": true,
+  "keywords": [],
+  "author": "Camilo Rivera Quintero <camilo.riveraq@gmail.com> (https://contracamilo.github.io/camiloriveracv/)",
   "license": "MIT",
   "dependencies": {
-    "@storybook/addon-info": "^5.1.11",
+    "@reach/router": "^1.2.1",
     "@storybook/react": "^5.1.11",
     "ajv": "^6.10.2",
+    "classnames": "^2.2.6",
+    "intersection-observer": "^0.7.0",
+    "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
     "react-scripts": "3.1.1"
   },
   "scripts": {
@@ -41,6 +47,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
+    "@storybook/addon-actions": "^5.1.11",
+    "@storybook/addon-info": "^5.1.11",
     "babel-loader": "^8.0.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
